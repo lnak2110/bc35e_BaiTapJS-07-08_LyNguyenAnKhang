@@ -3,7 +3,7 @@ var mang = [];
 
 document.getElementById('btnLuuSo').addEventListener('click', function () {
   var so = +document.getElementById('luuSo').value;
-  // thêm số vào mảng
+  // Thêm số vào mảng
   mang.push(so);
   // Làm trống ô nhập sau khi thêm số
   document.getElementById('luuSo').value = null;
